@@ -3,9 +3,13 @@ words_to_check:
   - whispering woods
   - eldoria
 models: 
-  - Meta-Llama-3.1-8B-Instruct
-api_key: you_api_key
+  - Mistral-Nemo-12B-Instruct-2407
+  - Meta-Llama-3.1-70B-Instruct
+  - Llama-3.1-8B-ArliAI-RPMax-v1.1
+  - Mistral-Nemo-12B-ArliAI-RPMax-v1.1
+  - Llama-3.1-70B-ArliAI-RPMax-v1.1
+api_key: API_KEY
 llm_urls:
-  - https://api.arliai.com/v1/completions
+  - https://api.arliai.com
 max_workers_per_url:
-  - 24
+  - 6

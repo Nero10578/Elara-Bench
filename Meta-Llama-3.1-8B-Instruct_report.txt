@@ -1,5 +1,5 @@
 Word occurrences in responses:
-elara: 28
+elara: 13
 whispering woods: 4
 eldoria: 0
 Number of responses containing each word:
