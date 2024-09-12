@@ -4,8 +4,8 @@ words_to_check:
   - eldoria
 models: 
   - Meta-Llama-3.1-8B-Instruct
-api_key: your_api_key
+api_key: you_api_key
 llm_urls:
-  - https://localhost:8000/v1/completions
+  - https://api.arliai.com/v1/completions
 max_workers_per_url:
   - 24

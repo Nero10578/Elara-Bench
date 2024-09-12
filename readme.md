@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 ## Configuration
 
-The configuration is specified in a config.yml file. Here is an example of what the config.yml file might look like:
+The configuration is specified in a config.yml file. Here is an example of what the config.yml file might look like if you are using an API service:
 
 ```yaml
 words_to_check:
@@ -28,19 +28,18 @@ words_to_check:
   - eldoria
 models: 
   - Meta-Llama-3.1-8B-Instruct
-api_key: your_api_key
+api_key: you_api_key
 llm_urls:
-  - http://localhost:8000/v1/completions
+  - https://api.arliai.com/v1/completions
 max_workers_per_url:
   - 24
-
+```
 - words_to_check: List of words to check in the generated responses.
 - models: List of models being tested.
 - api_key: Your endpoint API key if needed
 - llm_urls: List of URLs for the LLM API endpoints to use.
 - max_workers_per_url: List of maximum workers for each URL.
 
-```
 ## Files
 
 Input Files - prompts.json: A JSON file containing the writing prompts.
