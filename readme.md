@@ -1,6 +1,6 @@
 # Elara benchmark
 
-The Elara Benchmark is an LLM repetition tester to help find out if an LLM's output is repetitive.
+The Elara Benchmark is a tool to test LLM models for repetitive words or phrases in unrelated prompts.
 
 It works by generating responses based on writing prompts from https://github.com/EQ-bench/EQ-Bench/blob/main_v2_4/data/creative_writing_prompts_v2.2.json using a specified language model. 
 
